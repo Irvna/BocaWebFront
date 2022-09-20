@@ -1,6 +1,5 @@
 export const Busca = ({busca, buscaODA}) => {
-    return(
-    <div className='busca'> 
+    return( 
           <input
           name='busca'
           type='text'
@@ -8,6 +7,5 @@ export const Busca = ({busca, buscaODA}) => {
           placeholder='O que você deseja buscar?'
           onChange={buscaODA}
           />
-    </div>
     )
 }
