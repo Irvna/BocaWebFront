@@ -33,9 +33,7 @@ class App extends Component{
     return(
       <section className='container'>
 
-        <div className='cabecalho'>
-          <Cabecalho/>
-        </div>
+        <Cabecalho/>
 
         <div className='busca'> 
           <Busca
@@ -46,7 +44,6 @@ class App extends Component{
         </div>
 
         <div className='lista'>
-          
           {odas.map(oda => (
             <Lista
             key={oda.id}
@@ -58,7 +55,7 @@ class App extends Component{
             />
           ))}
         </div>
-
+          
         <Rodape/>
 
       </section>
