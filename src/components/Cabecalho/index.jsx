@@ -1,5 +1,5 @@
 import logo from './logo.png'
-export const Cabecalho = ({}) => {
+export const Cabecalho = () => {
     return(
         <header>
           <h1>BOCAWEB FRONT</h1>
