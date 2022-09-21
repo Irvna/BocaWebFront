@@ -14,6 +14,7 @@ class App extends Component{
 
   componentDidMount(){
     this.carregaODAs();
+    document.title = "API - BocaWeb"
   }
 
   carregaODAs(){
